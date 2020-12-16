@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="node_modules/modern-normalize/modern-normalize.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oleo+Script&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap">
     <link rel="stylesheet" href="./CSS/style.css">
@@ -10,20 +11,22 @@
 </head>
 <body>
     <!--Шапка сторінки-->
-<header>
-    <nav >
-        <a class="logo-header" href="/"><span class="logo-web">Web</span><span class="logo-studio">Studio</span></a>
-         <ul class="site-nav list">
-            <li><a class="link-header current " href="./index.html">Студия</a></li>
-            <li><a class="link-header" href="./Portfolio.html">Портфолио</a></li>
-            <li><a class="link-header" href="">Контакты</a></li>
-         </ul>
-    </nav>
-    <ul>
-        <li><a class="link-contacts" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a class="link-contacts" href="tell:+380961111111">+38 096 111 11 11</a></li>
-    </ul>
-</header>
+    <header class="header">
+        <div class="conteiner">
+            <nav>
+                <a class="logo-header" href="/"><span class="logo-web">Web</span><span class="logo-studio">Studio</span></a>
+                <ul class="nav-links site-nav list">
+                    <li class="item"><a class="link-header current " href="./index.html">Студия</a></li>
+                    <li class="item"><a class="link-header" href="./Portfolio.html">Портфолио</a></li>
+                    <li class="item"><a class="link-header" href="">Контакты</a></li>
+                </ul>
+            </nav>
+            <ul class="contacts">
+                <li class="item-contacts"><a class="link-contacts" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                <li class="item-contacts"><a class="link-contacts" href="tell:+380961111111">+38 096 111 11 11</a></li>
+            </ul>
+        </div>
+    </header>
      <!--Заголовок-->
     <main>
     <section class="hero">
@@ -32,7 +35,7 @@
     </section>
     <!-- Наші переваги -->
     <section>
-        <h2></h2>
+        <h2 ></h2>
         <ul>
             <li>
                <h3>Внимание к деталям</h3>
