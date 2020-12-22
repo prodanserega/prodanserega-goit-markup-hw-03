@@ -67,11 +67,9 @@ ul {
 }
 
 .header {
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 15px;
-  padding-right: 15px;
   display: block;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 .nav-conteiner {
@@ -88,8 +86,6 @@ ul {
   letter-spacing: 0.03em;
 
   margin-right: 93px;
-  margin-top: 25px;
-  margin-bottom: 25px;
   margin-left: 0px;
 }
 .logo-web {
@@ -151,7 +147,6 @@ ul {
 
 .page-header {
   border-bottom: 1px solid #ececec;
-  margin-bottom: 94px;
   display: block;
 }
 /*--------------------------------------hero--------------------------------------------*/
@@ -179,7 +174,6 @@ ul {
   line-height: 1.4;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-
   margin-bottom: 30px;
 }
 
@@ -205,12 +199,6 @@ ul {
 
 .advantage {
   padding-top: 94px;
-  padding-bottom: 94px;
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .advantage-list {
@@ -244,6 +232,8 @@ ul {
   width: 1200px;
   margin-right: auto;
   margin-left: auto;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .work {
@@ -266,7 +256,6 @@ ul {
 
 .conteiner-list {
   display: flex;
-  padding-bottom: 94px;
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
@@ -389,11 +378,6 @@ h3 {
 
 .conteiner-footer {
   display: block;
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .logo {
@@ -490,9 +474,6 @@ h3 {
   font-size: 16px;
   line-height: 1.9;
   color: var(--secondary-text-color);
-  padding-bottom: 20px;
-  margin-right: 24px;
-  margin-left: 24px;
 }
 
 .title {
@@ -536,14 +517,8 @@ h3 {
   margin-right: auto;
 }
 
-.fotos {
-  margin-bottom: 20px;
-}
-
-.title {
-  margin-left: 24px;
-  margin-right: 24px;
-  margin-left: 24px;
+.conteiner-text {
+  padding: 20px 24px;
 }
 
 .logo-footer {
@@ -553,4 +528,9 @@ h3 {
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
+}
+
+.portfolio-main {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
