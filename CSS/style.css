@@ -27,10 +27,10 @@ body {
 /*--------------------------------------Скрить заголовки h2 і h1-----------------------------------*/
 .visually-hidden {
   position: absolute;
-  clip:rect(0 0 0 0);
-  width:1px;
-  height:1px;
-  margin:-1px;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
 }
 /*--------------------------------------------Общі значення----------------------------------*/
 li {
@@ -41,17 +41,19 @@ a {
   text-decoration: none;
 }
 
-h1,h2,h3,p{
+h1,
+h2,
+h3,
+p {
   margin-top: 0px;
   margin-bottom: 0px;
 }
 
-ul{
+ul {
   margin: 0;
   padding: 0;
   list-style: none;
 }
-
 
 /*--------------------------------------header----------------------------------------------*/
 .conteiner {
@@ -147,8 +149,8 @@ ul{
   margin-right: 50px;
 }
 
-.page-header{
-  border-bottom: 1px solid #ECECEC;
+.page-header {
+  border-bottom: 1px solid #ececec;
   margin-bottom: 94px;
   display: block;
 }
@@ -193,17 +195,15 @@ ul{
   letter-spacing: 0.06em;
   border-style: none;
 
-
   padding-top: 10px;
   padding-right: 32px;
   padding-bottom: 10px;
   padding-left: 32px;
-
 }
 
 /*---------------------------наші переваги------------------------------*/
 
-.advantage{
+.advantage {
   padding-top: 94px;
   padding-bottom: 94px;
   width: 1200px;
@@ -211,44 +211,40 @@ ul{
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-  }
+}
 
-.advantage-list{
-    display: flex;
-    padding-left: 0; 
-    
-  }
+.advantage-list {
+  display: flex;
+  padding-left: 0;
+}
 
-.advantage-title{
+.advantage-title {
   margin-top: 0;
   padding: 0;
   margin-bottom: 10px;
-
 }
 
-.advantage-item{
-  width:calc((100%-90px)/4);
+.advantage-item {
+  width: calc((100%-90px) / 4);
   margin-right: 30px;
 }
 
-.advantage-item:nth-child(4n){
+.advantage-item:nth-child(4n) {
   margin-right: 0;
 }
 
-.advantage-essence{
+.advantage-essence {
   padding: 0;
   margin: 0;
 }
 
-
 /*----------------------------------------Чем ми занимаемся------------------------------*/
-.conteiner-work{
+.conteiner-work {
   display: block;
   width: 1200px;
   margin-right: auto;
   margin-left: auto;
- }
-
+}
 
 .work {
   color: var(--main-text-color);
@@ -262,13 +258,13 @@ ul{
   display: block;
 }
 
-.conteiner-img{
-display: block;
-margin: 0;
-padding: 0;
+.conteiner-img {
+  display: block;
+  margin: 0;
+  padding: 0;
 }
 
-.conteiner-list{
+.conteiner-list {
   display: flex;
   padding-bottom: 94px;
   width: 1200px;
@@ -280,12 +276,9 @@ padding: 0;
   margin-bottom: 0;
 }
 
- 
-
-.conteiner-item:not(:last-child){
+.conteiner-item:not(:last-child) {
   margin-right: 30px;
-  }
-
+}
 
 /*------------------------------------------команда-------------------------------------*/
 .team {
@@ -336,7 +329,7 @@ h3 {
   margin-bottom: 10px;
 }
 
-.workers{
+.workers {
   display: block;
   width: 1200px;
   padding-left: 15px;
@@ -345,18 +338,18 @@ h3 {
   margin-right: auto;
 }
 
-.our-team-hidden{
+.our-team-hidden {
   display: block;
   padding-top: 94px;
   padding-bottom: 50px;
 }
 
-.team-list{
+.team-list {
   display: flex;
   padding-bottom: 94px;
 }
 
-.team-hero:not(:last-child){
+.team-hero:not(:last-child) {
   margin-right: 30px;
 }
 
@@ -364,19 +357,20 @@ h3 {
   box-sizing: border-box;
 }
 
-.foto{
+.foto {
   display: block;
   max-width: 100%;
   height: auto;
   margin-bottom: 30px;
 }
 
-.team-hero{
+.team-hero {
   width: 270px;
   margin-left: auto;
   margin-right: auto;
-  background: #FFFFFF;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  background: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
 
@@ -393,7 +387,7 @@ h3 {
   padding-bottom: 60px;
 }
 
-.conteiner-footer{
+.conteiner-footer {
   display: block;
   width: 1200px;
   padding-left: 15px;
@@ -404,7 +398,6 @@ h3 {
 
 .logo {
   color: var(--bgc-accent-text-color);
-  
 }
 
 .logo-footer {
@@ -415,8 +408,6 @@ h3 {
   line-height: 1.2;
   letter-spacing: 0.03em;
   margin-bottom: 20px;
-  
-  
 }
 
 .address {
@@ -431,10 +422,9 @@ h3 {
   text-decoration: none;
 }
 
-.address:last-child{
+.address:last-child {
   margin-bottom: 0;
 }
-
 
 .link-footer {
   color: var(--footer-addressbox-text-color);
@@ -443,10 +433,9 @@ h3 {
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
-  
 }
 
-.mailto{
+.mailto {
   margin-bottom: 9px;
 }
 
@@ -454,20 +443,19 @@ h3 {
 
 /*-------------------------------------------кнопки------------------------------------------------*/
 
-
-.conteiner-button{
+.conteiner-button {
   margin-left: auto;
   margin-right: auto;
 }
 
-.main-button{
-  display:flex;
+.main-button {
+  display: flex;
   margin-left: auto;
   margin-right: auto;
   padding-bottom: 50px;
 }
 
-.button-item:not(:last-child){
+.button-item:not(:last-child) {
   margin-right: 8px;
 }
 
@@ -488,14 +476,12 @@ h3 {
   letter-spacing: 0.03em;
   color: #212121;
   border-style: none;
-
 }
 
 .button-portfolio:hover,
 .button-portfolio:focus {
   color: var(--bgc-accent-text-color);
   background-color: var(--button-bgc);
-  
 }
 
 .text-portfolio {
@@ -519,14 +505,14 @@ h3 {
   color: var(--main-text-color);
 }
 
-.foto-list{
-flex-wrap: wrap;
-display:flex;
-padding-bottom: 94px;
+.foto-list {
+  flex-wrap: wrap;
+  display: flex;
+  padding-bottom: 94px;
 }
 
-.foto-item{
-  flex-basis: (calc(100%-60px)/3);
+.foto-item {
+  flex-basis: (calc(100%-60px) / 3);
   border: 1px solid #eeeeee;
   margin-right: 30px;
   margin-bottom: 30px;
@@ -534,15 +520,15 @@ padding-bottom: 94px;
   box-sizing: border-box;
 }
 
-.foto-item:nth-child(3n){
+.foto-item:nth-child(3n) {
   margin-right: 0;
 }
 
-.foto-item:nth-last-child(-n+3){
+.foto-item:nth-last-child(-n + 3) {
   margin-bottom: 0;
 }
 
-.conteiner-foto{
+.conteiner-foto {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
@@ -550,19 +536,17 @@ padding-bottom: 94px;
   margin-right: auto;
 }
 
-.fotos{
+.fotos {
   margin-bottom: 20px;
-  
 }
 
-.title{
+.title {
   margin-left: 24px;
   margin-right: 24px;
   margin-left: 24px;
-
 }
 
-.logo-footer{
+.logo-footer {
   font-family: "Raleway";
   font-style: 500;
   font-weight: 700;
