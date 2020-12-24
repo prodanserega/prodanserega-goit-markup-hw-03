@@ -228,9 +228,9 @@ ul {
 
 /*----------------------------------------Чем ми занимаемся------------------------------*/
 .conteiner-work {
-  display: block;
   padding-top: 94px;
   padding-bottom: 94px;
+  display: block;
 }
 
 .work {
@@ -245,13 +245,12 @@ ul {
   display: block;
 }
 
+.conteiner-img {
+  display: block;
+}
+
 .conteiner-list {
   display: flex;
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
   margin-top: 0;
   margin-bottom: 0;
 }
