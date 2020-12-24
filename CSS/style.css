@@ -229,9 +229,6 @@ ul {
 /*----------------------------------------Чем ми занимаемся------------------------------*/
 .conteiner-work {
   display: block;
-  width: 1200px;
-  margin-right: auto;
-  margin-left: auto;
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -246,12 +243,6 @@ ul {
   letter-spacing: 0.03em;
   margin-bottom: 50px;
   display: block;
-}
-
-.conteiner-img {
-  display: block;
-  margin: 0;
-  padding: 0;
 }
 
 .conteiner-list {
@@ -272,6 +263,8 @@ ul {
 /*------------------------------------------команда-------------------------------------*/
 .team {
   background: var(--secondary-bgc);
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .our-team {
   color: var(--main-text-color);
@@ -329,13 +322,11 @@ h3 {
 
 .our-team-hidden {
   display: block;
-  padding-top: 94px;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .team-list {
   display: flex;
-  padding-bottom: 94px;
 }
 
 .team-hero:not(:last-child) {
